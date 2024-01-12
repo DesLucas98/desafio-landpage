@@ -1,84 +1,40 @@
-* {
-  margin: 0px;
+*{
 
-  font-family: "inter";
+  margin:0px;   
+
+  font-family: 'inter';
+
 }
 
-#titulo-menusuperior {
-  margin-left: 50px;
+#titulo-menusuperior{
+
+  margin-left: 50px;  
 
   padding-top: 50px;
 
-  width: 1024px;
-  
-  height: 72px;
-  
-  left: 82px;
-  
-  top: 206px;
-
-  font-family: 'Inter';
-  
-  font-style: normal;
-  
-  font-weight: 600;
-  
-  font-size: 60px;
-  
-  line-height: 120%;
-  
-  letter-spacing: -0.025em;
-  
-  font-feature-settings: 'liga' off;
-
-  color: #FFFFFF;
-
-
-
-
-  
 }
 
-#texto-menusuperior {
-  margin-left: 50px;
+#texto-menusuperior{
+
+  margin-left: 50px;  
 
   padding-top: 20px;
 
   padding-bottom: 100px;
 
-  width: 1024px;
-  
-  height: 28px;
-  
-  left: 62px;
-  
-  top: 298px;
-
-  font-family: 'Inter';
-  
-  font-style: normal;
-  
-  font-weight: 500;
-  
-  font-size: 20px;
-  
-  line-height: 140%;
-  
-  font-feature-settings: 'liga' off;
-
-  color: #FFFFFF;
-
-
 }
 
-#menusuperior {
+#menusuperior{
+
   background-color: #303030;
 
   color: aliceblue;
+
 }
 
-#menuinformacional {
-  background-color: #eaece5;
+#menuinformacional{
+
+  background-color: #EAECE5;
 
   display: grid;
 
@@ -88,19 +44,9 @@
 
   padding: 50px;
 
-  font-family: "Inter";
+  font-size: 20px;
 
-  font-style: normal;
-
-  font-size: 30px;
-
-  line-height: 28px;
-
-  color: #000000;
-
-  
 }
-
 #menuhistoria {
   
   background-color: #ffffff;
@@ -117,7 +63,7 @@
 }
 
 #titulo-menuhistoria {
-  
+
   font-size: 30px;
   
   margin-top: 200px;
@@ -132,17 +78,9 @@
   
   background-color: #ffffff;
   
-  font-family: "Inter";
-  
-  font-style: normal;
-  
-  font-weight: 300;
-  
-  font-size: 24px;
-  
-  line-height: 30px;
-  
   display: flex;
+
+  font-size: 20px;
   
   align-items: center;
 
@@ -153,75 +91,81 @@
   
   background-color: #ffffff;
   
-  width: 510px;
-  
-  height: 605px;
-  
-  top: 781px;
-  
-  left: 876px;
-  
   border-radius: 30px;
 }
 
-.titulo-apresentacao {
-  padding: 50px;
-}
 
 #formulario {
+
   text-align: center;
 
   background-color: #303030;
+
 }
 
+
+
 #titulo-formulario {
+
   font-size: 20px;
 
   margin: 25px;
 
   padding-top: 50px;
 
-  color: #ffffff;
+  color:#FFFFFF;
+
 }
 
-input {
+
+
+input{
+
   width: 300px;
 
   height: 40px;
 
-  background-color: #eaece5;
+  background-color: #EAECE5;
 
   margin: 15px;
 
-  border: 0px;
+  border:0px;
 
-  border-radius: 5px;
+  border-radius:5px;
 
   padding-left: 10px;
+
 }
 
-button {
-  background-color: #c07212;
+
+
+button{
+
+  background-color:  #C07212;
 
   height: 40px;
 
   width: 250px;
 
-  color: #eaece5;
+  color: #EAECE5;
 
-  border: 0px;
+  border:0px;
 
-  border-radius: 5px;
+  border-radius:5px;
 
   margin-bottom: 50px;
 
   font-weight: bolder;
 
-  cursor: pointer;
+  cursor:pointer;
+
 }
 
-button:hover {
-  background-color: #ff8c00;
+
+
+button:hover{
+
+  background-color: #FF8C00;
 
   color: white;
 
@@ -230,4 +174,7 @@ button:hover {
   box-shadow: 0px 15px 20px #05103081;
 
   transition-duration: 0.5s;
+
 }
+
+
